@@ -22,3 +22,10 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/ */
 .parallax__layer--front {
     transform: translateZ(1px) scale(.5);
 }
+
+.glassesImg {
+    width:100px;
+    height: 100px;
+    object-fit: contain;
+    display: block;
+}
