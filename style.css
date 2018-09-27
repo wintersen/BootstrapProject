@@ -12,6 +12,7 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/ */
     right: 0;
     bottom: 0;
     left: 0;
+    
 }
 .parallax__layer--base {
     transform: translateZ(0);
@@ -28,4 +29,16 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/ */
     height: 100px;
     object-fit: contain;
     display: block;
+}
+
+body {
+    background-image: linear-gradient(white, #ffcccc);
+}
+
+.link {
+    color: #ff0066;
+    font-weight: bold;
+}
+.link:hover {
+    color: #b30047;
 }
