@@ -16,12 +16,15 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/ */
 }
 .parallax__layer--base {
     transform: translateZ(0);
+    -ms-transform: translateZ(0);
 }
 .parallax__layer--back {
     transform: translateZ(-1px) scale(2);
+    -ms-transform: translateZ(-1px) scale(2);
 }
 .parallax__layer--front {
     transform: translateZ(1px) scale(.5);
+    -ms-transform: translateZ(1px) scale(.5);
 }
 
 .glassesImg {
